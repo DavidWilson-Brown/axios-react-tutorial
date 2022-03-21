@@ -1,0 +1,36 @@
+.beerListItem {
+    padding: 25px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    background-color: #ffffff;
+    border-top: #d3d3d3 1.5px solid;
+  }
+  
+  .beerImageWrapper {
+    display: flex;
+    align-items: center;
+  }
+  
+  .beerImage {
+    margin-left: auto;
+    margin-right: auto;
+    height: 200px;
+    width: 150px;
+    display: block;
+    object-fit: contain;
+  }
+  
+  .beerDescription {
+    margin: 0 20px;
+  }
+  
+  p {
+    font-size: 16.5px;
+  }
+  
+  .heartButton {
+    border: none;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+  }
